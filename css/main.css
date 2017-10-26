@@ -1,0 +1,259 @@
+/*Estilos de tu proyecto*/
+body {
+	margin: 0;
+}
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+header {
+	background: #2c3e50;
+	padding: 12px;
+	color: #fff;
+	position: fixed;
+	width: 100%;
+}
+nav h1 {
+	display: inline-block;
+	font-size: 32px;
+	padding-left: 76px;
+	margin-top: 22px;
+}
+ul {
+	list-style: none;
+	margin-left: 445px;
+	display: inline-block;
+	vertical-align: super;
+
+}
+li {
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	display: inline-block;
+	padding: 0 10px 0 10px;
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+a:hover {
+	color: #18bc9c;
+}
+.bootstrap {
+	background: #18bc9c;
+	color: #fff;
+	text-align: center;
+}
+.bootstrap img {
+	padding-top: 190px;
+}
+.bootstrap h1 {
+	font-size: 4.75em;
+	padding-top: 25px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.primera {
+	width: 105px;
+	height: 4px;
+	background: #fff;
+	vertical-align: top;
+	display: inline-block;
+}
+.fa-star {
+	font-size: 30px;
+	padding: 0 10px 0 10px;
+	display: inline-block;
+}
+.bootstrap h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 28px;
+	padding-bottom: 100px;
+}
+.portfolio {
+	text-align: center;
+	color: #2c3e50;
+	padding-top: 28px;
+	padding-bottom: 40px;
+}
+.portfolio h2 {
+	font-size: 3em;
+	color: #212529;
+	margin-bottom: 15px;
+}
+.segunda {
+	width: 105px;
+	height: 4px;
+	background: #2c3e50;
+	vertical-align: top;
+	display: inline-block;
+	margin-bottom: 38px;
+}
+.images {
+	padding-left: 60px;
+	margin-bottom: 60px;
+	overflow: hidden;
+	clear: both;
+}
+.images img {
+	width: 350px;
+	height: 250px;
+	float: left;
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+img:hover {
+	background: #18bc9c;
+}
+.about {
+	background: #18bc9c;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 110px;
+	margin-top: 100px;
+
+}
+.about h2 {
+	font-size: 3em;
+}
+.about ul {
+	margin-left: 0;
+}
+.about li {
+	text-transform: none;
+	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	line-height: 1.5;
+	font-size: 20px;
+	width: 350px;
+	height: 200px;
+	margin: 0 8px 0 8px;
+}
+.about a {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	border: 2px solid #fff;
+	border-radius: 8px;
+	padding: 15px;
+}
+.theme:hover {
+	background: #fff;
+	color: #18bc9c;
+}
+.contact {
+	color: #2c3e50;
+	text-align: center;
+	padding-top: 57px;
+}
+.contact h2 {
+	font-size: 3em;
+	color: #212529;
+}
+.data {
+	text-align: left;
+}
+.data p {
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	padding: 10px 270px;
+}
+.data hr {
+	display: inline-block;
+	width: 750px;
+	height: 0;
+	margin-left: 270px;
+}
+.message {
+	margin-top: 140px;
+}
+.button {
+	text-align: left;
+}
+.button p {
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	display: inline-block;
+	background: #18bc9c;
+	color: #fff;
+	padding: 10px 15px;
+	border-radius: 8px;
+	margin-left: 270px;
+	margin-bottom: 100px;
+}
+.darkest:hover {
+	background: #1D8B76;
+}
+footer {
+	background: #2c3e50; 
+	color: #fff;
+}
+footer ul {
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	margin-left: 0;
+}
+footer h3 {
+	text-transform: uppercase;
+}
+footer li {
+	text-transform: none;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	line-height: 1.5;
+	font-size: 23px;
+	font-weight: normal;
+	width: 350px;
+	height: 200px;
+	margin: 0 8px 0 8px;
+}
+footer li p {
+	font-size: 16px;
+}
+.social i {
+	width: 25px;
+	height: 25px;
+	border-radius: 100%;
+	border: 2px solid #fff;	
+	padding: 8px 8px;
+}
+.fa-facebook:hover {
+	background: #fff;
+	color: #18bc9c;
+}
+.fa-google-plus:hover {
+	background: #fff;
+	color: #18bc9c;
+}
+.fa-twitter:hover {
+	background: #fff;
+	color: #18bc9c;
+}
+.fa-linkedin:hover {
+	background: #fff;
+	color: #18bc9c;
+}
+.fa-dribbble:hover {
+	background: #fff;
+	color: #18bc9c;
+}
+span {
+	color: #18bc9c;
+}
+span:hover{
+	text-decoration: underline;
+}
+.copyright p {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	padding: 40px;
+	margin-top: 2px;
+	margin-bottom: 0;
+}
+
